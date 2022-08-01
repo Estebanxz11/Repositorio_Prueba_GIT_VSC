@@ -21,4 +21,4 @@ def listaPeliculas(rutaFileXls: str)-> str:
     else:
         print('Extensión inválida.')
     return 'Fin del registro'
-print(listaPeliculas(rutaFileXls)) 
+print(listaPeliculas(rutaFileXls))  
