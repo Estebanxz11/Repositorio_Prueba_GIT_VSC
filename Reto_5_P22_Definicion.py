@@ -1,9 +1,9 @@
 import pandas as pd
 
 #ruta file csv
-rutaFileCsv = 'https://github.com/luisguillermomolero/MisionTIC2022/blob/3f3847bbf2dbe4b2cf4dcceb96a455d92c88f9c5/movies.csv?raw=true' 
+rutaFileXls = 'https://github.com/luisguillermomolero/MisionTIC2022/blob/3f3847bbf2dbe4b2cf4dcceb96a455d92c88f9c5/movies.csv?raw=true' 
 
-def listaPeliculas(rutaFileXlv: str)-> str:
+def listaPeliculas(rutaFileXls: str)-> str:
     if rutaFileXls.split('.')[-1] != 'xls': 
         try:
             xlsx = pd.ExcelFile(rutaFileCsv)
